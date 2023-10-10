@@ -1,0 +1,76 @@
+body {
+    font-family:Orbitron;
+    background-color: #3D3F61 ;
+    color: #CFD2FA; 
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Kalam";
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+header {
+    text-align: center;
+
+}
+
+#hero, footer {
+    text-align:center;
+    background-color: #6C6E63;
+    padding: 5pt;
+    border: 4px solid #A65733;
+}
+
+/*Hero Section */
+#hero img {
+    width: 250px;
+
+}
+
+
+/*Bio Section */
+#bio {
+    text-align: center;
+}
+
+
+/*Hobbies Section */
+#hobbies ul li:nth-child(2n+1) {
+    color: white;
+}
+
+#hobbies ul li:nth-child(2n+2) {
+    color: gold;
+}
+
+a:link {
+    color: white;
+}
+
+#gallery {
+    border: 6px groove #A65733;
+    border-radius: 10px;
+    margin: 10px
+    
+}
+
+#gallery img {
+    max-width: 60%;
+    
+}
+
+#gallery figure {
+    text-align: center;
+}
+
+/* Literature */
+
+#lit {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 3rem;
+    
+}
