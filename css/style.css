@@ -89,6 +89,7 @@ a:visited {
     
 }
 
+/* Tablet size */
 
 @media screen and (min-width: 60em) {
 
@@ -105,4 +106,39 @@ a:visited {
         margin-left: 2rem;
     }
 
+    figure img {
+        width: 100%
+    }
+
+
+    #lit div {
+        max-width: 100%;
+        columns: 15rem;
+
+    }
+}
+
+
+/* large screen sizes */
+@media screen and (min-width: 100em) {
+    
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+
+    }
+
+    figure {
+        display: block;
+    }
+    
+    
 }
