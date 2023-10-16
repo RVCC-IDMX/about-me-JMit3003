@@ -89,6 +89,21 @@ a:visited {
     
 }
 
+#lit div p:first-child::first-letter {
+    color:#A65733;
+    background-image: linear-gradient(white, black);
+    float: left;
+    font-size: 3em;
+    padding: .1em;
+    margin-right: .1em;
+    border: 2px inset white;
+    box-shadow: 2px 5px 5px;
+
+
+
+
+}
+
 /* Tablet size */
 
 @media screen and (min-width: 60em) {
